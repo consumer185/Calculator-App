@@ -7,10 +7,10 @@ h3 {
 }
 
 .masterDiv {
-background-color: #E6E6E6;
-width: 375px;
-height: 667px;
-padding: 20px;
+  background-color: #E6E6E6;
+  width: 375px;
+  height: 667px;
+  padding: 20px;
 }
 
 #displayDiv {
@@ -25,7 +25,6 @@ padding: 20px;
   padding-right: 15px;
 }
 
-
 #inputDiv {
   background-color: #D3CDCD;
   padding: 15px;
@@ -38,14 +37,15 @@ button {
   width: 70px;
   height: 70px;
   line-height: 70px;
-font-size: 2rem;
-align-items: center;
-border: none;
-box-shadow: 0 5px #A79D93;
-border-radius: 10px;
-text-align: center;
-padding: 0; //necessary so that ios doesnt default to 1em
-
+  font-size: 2rem;
+  align-items: center;
+  border: none;
+  box-shadow: 0 5px #A79D93;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0; //necessary so that ios doesnt default to 1em
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
@@ -58,7 +58,7 @@ padding: 0; //necessary so that ios doesnt default to 1em
 .delete {
   color: white;
   background-color: #388187;
-box-shadow: 0 5px #295C60;
+  box-shadow: 0 5px #295C60;
 }
 
 .reset {
