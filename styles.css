@@ -80,7 +80,7 @@ button {
 
 /* theme styling */
 .theme {
-width: 40%;
+width: 50%;
 margin-left: auto;
 margin-right: 0;
 margin-top: 15px;
@@ -97,10 +97,10 @@ top: 68px;
 
 .input-range {
 
-  width: 50px;
+  width: 70px;
   -webkit-appearance: none;
   background-color: #D3CDCD;
-  height: 1.5rem;
+  height: 2rem;
   border-radius: 15px;
   padding-left: 5px;
   padding-right: 5px;
@@ -110,7 +110,7 @@ top: 68px;
 
 
 span {
-  word-spacing: 8px;
+  word-spacing: 15px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
