@@ -6,8 +6,11 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+<link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Calculator app</title>
 
@@ -27,11 +30,14 @@
 <body>
 
 
-  <div class="">
+  <div class="masterDiv">
     <h3>calc</h3>
     <div id="displayDiv">
         <h2 id="displayText">0</h2>
     </div>
+
+<div id="inputDiv">
+
 
     <div class="row">
 
@@ -46,28 +52,28 @@
       <button class="numeric" type="button" name="button">4</button>
       <button class="numeric" type="button" name="button">5</button>
       <button class="numeric" type="button" name="button">6</button>
-      <button type="button" name="button">+</button>
+      <button class="add operation" type="button" name="button">+</button>
     </div>
 
     <div class="row">
       <button class="numeric" type="button" name="button">1</button>
       <button class="numeric" type="button" name="button">2</button>
       <button class="numeric" type="button" name="button">3</button>
-      <button type="button" name="button">-</button>
+      <button class="subtract operation" type="button" name="button">-</button>
     </div>
 
     <div class="row">
       <button class="decimalPoint" type="button" name="button">.</button>
       <button class="numeric" type="button" name="button">0</button>
-      <button type="button" name="button">/</button>
-      <button type="button" name="button">x</button>
+      <button class="divide operation" type="button" name="button">/</button>
+      <button class="multiply operation" type="button" name="button">x</button>
     </div>
 
     <div class="row">
       <button class="reset" type="button" name="button">RESET</button>
-      <button type="button" name="button">=</button>
+      <button  class="equals" type="button" name="button">=</button>
     </div>
-
+</div>
 
   </div>
 
