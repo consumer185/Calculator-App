@@ -2,6 +2,7 @@ body, button {
   font-family: 'League Spartan', sans-serif;
 }
 
+
 h3 {
   font-size: 1.5rem;
   margin-bottom: 0px;
@@ -9,14 +10,12 @@ h3 {
 }
 
 .masterDiv {
-  background-color: #E6E6E6;
   width: 375px;
   height: 667px;
   padding: 20px;
 }
 
 #displayDiv {
-  background-color: #EEEEEE;
   border-radius: 10px;
   font-size: 2rem;
   line-height: 75px;
@@ -28,21 +27,17 @@ h3 {
 }
 
 #inputDiv {
-  background-color: #D3CDCD;
   padding: 15px;
   border-radius: 10px;
 }
 
 button {
-  color: #393833;
-  background-color: #E5E4E0;
   width: 70px;
   height: 70px;
   line-height: 70px;
   font-size: 2rem;
   align-items: center;
   border: none;
-  box-shadow: 0 5px #A79D93;
   border-radius: 10px;
   text-align: center;
   padding: 0; //necessary so that ios doesnt default to 1em
@@ -57,66 +52,45 @@ button {
   padding: 10px;
 }
 
-.delete {
-  color: white;
-  background-color: #388187;
-  box-shadow: 0 5px #295C60;
-}
-
 .reset {
-  color: white;
-  background-color: #388187;
   width: 155px;
-  box-shadow: 0 5px #295C60;
 }
 
 .equals {
-  color: white;
-  background-color: #C85401;
   width: 155px;
-  box-shadow: 0 5px #873B01;
 }
 
-
-/* theme styling */
+/* theme area styling */
 .theme {
-width: 50%;
-margin-left: auto;
-margin-right: 0;
-margin-top: 15px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 15px;
 }
-
 
 label {
-position: absolute;
-top: 68px;
+  position: absolute;
+  top: 68px;
 }
 
-
 /* slider styling */
-
 .input-range {
-
   width: 70px;
   -webkit-appearance: none;
-  background-color: #D3CDCD;
   height: 2rem;
   border-radius: 15px;
   padding-left: 5px;
   padding-right: 5px;
-
 }
-
-
 
 span {
   word-spacing: 15px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
+  -webkit-appearance: none;
+  /* Override default look */
   appearance: none;
-
   background-color: #C75403;
   border-radius: 0.5rem;
   height: 1rem;
@@ -125,12 +99,163 @@ input[type="range"]::-webkit-slider-thumb {
 
 .range-slider {
   margin-left: auto;
-margin-right: 0;
+  margin-right: 0;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
+
+/* colour themes */
+/* theme 1 */
+
+.text-theme1 {
+  color: white;
+}
+
+.input-range-theme1 {
+  background-color: #262C46;
+}
+
+.equals-theme1 {
+  color: white;
+  background-color: #D13F30;
+  box-shadow: 0 5px #96271C;
+}
+
+.reset-theme1 {
+  color: white;
+  background-color: #647299;
+  box-shadow: 0 5px #414D75;
+}
+
+.delete-theme1 {
+  color: white;
+  background-color: #647299;
+  box-shadow: 0 5px #414D75;
+}
+
+.button-theme1 {
+  color: #393833;
+  background-color: #E5E4E0;
+  box-shadow: 0 5px #A79D93;
+}
+
+.inputDiv-theme1 {
+  background-color: #252D44;
+}
+
+.displayDiv-theme1 {
+  background-color: #181F32;
+}
+
+.masterDiv-theme1 {
+  background-color: #3B4664;
+}
+
+.displayText-theme1 {
+  color: white;
+}
+/* theme 2 */
+
+.text-theme2 {
+  color: #34352D;
+}
+
+.input-range-theme2 {
+  background-color: #D3CDCD;
+}
+
+.equals-theme2 {
+  color: white;
+  background-color: #C85401;
+  box-shadow: 0 5px #873B01;
+}
+
+.reset-theme2 {
+  color: white;
+  background-color: #388187;
+  box-shadow: 0 5px #295C60;
+}
+
+.delete-theme2 {
+  color: white;
+  background-color: #388187;
+  box-shadow: 0 5px #295C60;
+}
+
+.button-theme2 {
+  color: #393833;
+  background-color: #E5E4E0;
+  box-shadow: 0 5px #A79D93;
+}
 
 
-/* background-color: red; */
-display: flex;
-flex-direction: column;
-align-items: center;
-width: max-content;
+
+.inputDiv-theme2 {
+  background-color: #D3CDCD;
+}
+
+.displayDiv-theme2 {
+  background-color: #EEEEEE;
+}
+
+.masterDiv-theme2 {
+  background-color: #E6E6E6;
+}
+
+.displayText-theme2 {
+  color: white;
+}
+/* theme 3 */
+
+.text-theme3 {
+  color: #FCE03E;
+}
+
+
+
+.input-range-theme3 {
+  background-color: #D3CDCD;
+}
+
+.equals-theme3 {
+  color: white;
+  background-color: #C85401;
+  box-shadow: 0 5px #873B01;
+}
+
+.reset-theme3 {
+  color: white;
+  background-color: #388187;
+  box-shadow: 0 5px #295C60;
+}
+
+.delete-theme3 {
+  color: white;
+  background-color: #388187;
+  box-shadow: 0 5px #295C60;
+}
+
+.button-theme3 {
+  color: #393833;
+  background-color: #E5E4E0;
+  box-shadow: 0 5px #A79D93;
+}
+
+.inputDiv-theme3 {
+  background-color: #D3CDCD;
+}
+
+.displayDiv-theme3 {
+  background-color: #EEEEEE;
+}
+
+.masterDiv-theme3 {
+  background-color: #E6E6E6;
+}
+
+.displayText-theme3 {
+  color: white;
 }

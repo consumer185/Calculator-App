@@ -3,6 +3,26 @@ var firstNumberEntered = false;
 var firstNumber = "";
 var operation = "";
 var calculation = "";
+var currentTheme = 1;
+
+// var range = $('.input-range');
+//
+// range.on('input', function() {
+//   if (document.getElementById("input-range").value === 1) {
+//     console.log("we're on theme 1 people!");
+//   }
+//   console.log("range clicked on! now set to " + document.getElementById("input-range").value);
+//
+// });
+
+$(".input-range").click(function() {
+  if (document.getElementById("input-range").value === 1) {
+    console.log("we're on theme 1 people!");
+  } else {console.log("nothing doing");
+}
+});
+
+
 
 $(".numeric").click(function() {
 
@@ -76,14 +96,5 @@ $(".equals").click(function() {
   }
 
   document.getElementById("displayText").innerHTML = calculation;
-
-});
-
-
-var range = $('.input-range');
-
-range.on('input', function() {
-
-  console.log("range clicked on! now set to " + document.getElementById("input-range").value);
 
 });
