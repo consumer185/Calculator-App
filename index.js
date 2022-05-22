@@ -75,8 +75,15 @@ $(".equals").click(function() {
     calculation = firstNumber - secondNumber;
   }
 
-
-
-
   document.getElementById("displayText").innerHTML = calculation;
+
+});
+
+
+var range = $('.input-range');
+
+range.on('input', function() {
+
+  console.log("range clicked on! now set to " + document.getElementById("input-range").value);
+
 });
