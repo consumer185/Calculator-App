@@ -76,6 +76,14 @@ document.getElementById("input-range").oninput = function() {
     $(".equals").removeClass("equals-theme3");
     $(".equals").addClass("equals-theme1");
 
+    $(".thumb").removeClass("thumb-theme2");
+    $(".thumb").removeClass("thumb-theme3");
+    $(".thumb").addClass("thumb-theme1");
+
+    $(".operation").removeClass("button-theme2");
+    $(".operation").removeClass("button-theme3");
+    $(".operation").addClass("button-theme1");
+
 
 
   }
@@ -129,6 +137,14 @@ document.getElementById("input-range").oninput = function() {
     $(".equals").removeClass("equals-theme1");
     $(".equals").removeClass("equals-theme3");
     $(".equals").addClass("equals-theme2");
+
+    $(".thumb").removeClass("thumb-theme1");
+    $(".thumb").removeClass("thumb-theme3");
+    $(".thumb").addClass("thumb-theme2");
+
+    $(".operation").removeClass("button-theme1");
+    $(".operation").removeClass("button-theme3");
+    $(".operation").addClass("button-theme2");
 
 
   }
@@ -186,6 +202,15 @@ document.getElementById("input-range").oninput = function() {
     $(".equals").removeClass("equals-theme2");
     $(".equals").removeClass("equals-theme1");
     $(".equals").addClass("equals-theme3");
+
+    $(".thumb").removeClass("thumb-theme2");
+    $(".thumb").removeClass("thumb-theme1");
+    $(".thumb").addClass("thumb-theme3");
+
+    $(".operation").removeClass("button-theme2");
+    $(".operation").removeClass("button-theme1");
+    $(".operation").addClass("button-theme3");
+
 
   }
 

@@ -91,7 +91,7 @@ input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   /* Override default look */
   appearance: none;
-  background-color: #C75403;
+
   border-radius: 0.5rem;
   height: 1rem;
   width: 1rem;
@@ -100,7 +100,6 @@ input[type="range"]::-webkit-slider-thumb {
 .range-slider {
   margin-left: auto;
   margin-right: 0;
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,12 +109,19 @@ input[type="range"]::-webkit-slider-thumb {
 /* colour themes */
 /* theme 1 */
 
+.thumb-theme1[type="range"]::-webkit-slider-thumb {
+  background-color: #C75403;
+
+}
+
+
 .text-theme1 {
   color: white;
 }
 
 .input-range-theme1 {
   background-color: #262C46;
+
 }
 
 .equals-theme1 {
@@ -158,6 +164,12 @@ input[type="range"]::-webkit-slider-thumb {
   color: white;
 }
 /* theme 2 */
+
+.thumb-theme2[type="range"]::-webkit-slider-thumb {
+  background-color: #C75403;
+
+}
+
 
 .text-theme2 {
   color: #34352D;
@@ -210,6 +222,14 @@ input[type="range"]::-webkit-slider-thumb {
 }
 /* theme 3 */
 
+
+.thumb-theme3[type="range"]::-webkit-slider-thumb {
+
+  background-color: #05E3D8;
+}
+
+
+
 .text-theme3 {
   color: #FCE03E;
 }
@@ -217,45 +237,45 @@ input[type="range"]::-webkit-slider-thumb {
 
 
 .input-range-theme3 {
-  background-color: #D3CDCD;
+  background-color: #1E0837;
 }
 
 .equals-theme3 {
-  color: white;
-  background-color: #C85401;
-  box-shadow: 0 5px #873B01;
+  color: #01262C;
+  background-color: #00DECF;
+  box-shadow: 0 5px #6EF7EF;
 }
 
 .reset-theme3 {
   color: white;
-  background-color: #388187;
-  box-shadow: 0 5px #295C60;
+  background-color: #56077C;
+  box-shadow: 0 5px #BF15F4;
 }
 
 .delete-theme3 {
   color: white;
-  background-color: #388187;
-  box-shadow: 0 5px #295C60;
+  background-color: #56077C;
+  box-shadow: 0 5px #BF15F4;
 }
 
 .button-theme3 {
-  color: #393833;
-  background-color: #E5E4E0;
-  box-shadow: 0 5px #A79D93;
+  color: #FFE836;
+  background-color: #56077C;
+  box-shadow: 0 5px #BF15F4;
 }
 
 .inputDiv-theme3 {
-  background-color: #D3CDCD;
+  background-color: #1E0836;
 }
 
 .displayDiv-theme3 {
-  background-color: #EEEEEE;
+  background-color: #1E0836;
 }
 
 .masterDiv-theme3 {
-  background-color: #E6E6E6;
+  background-color: #17062A;
 }
 
 .displayText-theme3 {
-  color: white;
+  color: red;
 }
